@@ -1,0 +1,39 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    border: 2px black solid;
+}
+#box1{
+    background-image: url("dog photo.jpg");
+    background-size: cover;
+}
+/*#box1{
+    position: static;
+    /*it wwill be static always */
+/*}
+#box2{
+    position:relative;
+    /*the position will be relative in this case*/
+    /*top: 10px;
+    left: 20px;
+    z-index: 1;
+    /*jiski z index ki value badi wo box upar ayega uske jiski choti wo neeche aayega*/
+/*}
+#box3{
+    position: sticky;
+    /*position:absolute;*/
+    /*closest ancestor se position set hogi jaise is case me iska ancestor body hai to top ki value body ke hisab se set hogi*/
+    /*top:10px;
+    left:20px;
+    z-index: 2;
+}
+#box4{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100vw;
+    display: block;
+    /* always from browser the position will be fixed in this case*/
+/*}*/
